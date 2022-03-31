@@ -7,9 +7,33 @@
 
 body {
     font-size: 100%;
-    background: linear-gradient(68.15deg, #B0E0E6 16.62%, #E0FFFF 85.61%);
+    background: linear-gradient(68.15deg, #fffafa 56.62%, #48D1CC 85.61%);
 }
 .cabecalho {
     display: flex;
     flex-direction: row ;
+    align-items: center;
+    justify-content: space-around;
+    padding: 44px;
+}
+
+.cabecalho-imagem {
+    height: 72px;
+}
+
+.cabecalho-menu {
+     display: flex;
+     gap: 32px;
+}
+
+.cabecalho-menu-item {
+    font-family:'Sarala', sans-serif; 
+    color:  #FFF2E7;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.conteudo {
+    border-top: 0.3px solid #FFF2E7;
+
 }
