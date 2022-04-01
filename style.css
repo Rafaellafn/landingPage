@@ -34,6 +34,10 @@ body {
     font-size: 20px;
 }
 
+.cabecalho-menu-item:hover {
+    font-size: 22px ;
+}
+
 .conteudo {
     margin-bottom: 48px;
     padding: 64px;
